@@ -1,0 +1,49 @@
+body {
+    font-family: sans-serif;
+}
+
+#grid {
+    display: grid;
+    grid-template-areas:
+        'cta cta'
+        'original preview';
+    gap: 2rem;
+}
+
+#cta {
+    grid-area: cta;
+    cursor: pointer;
+    background-color: aquamarine;
+    border-radius: 1rem;
+    padding: 1rem;
+    display: block;
+    text-align: center;
+    width: max-content;
+    margin: 0 auto;
+
+    input {
+        display: none;
+    }
+}
+
+#original {
+    grid-area: original;
+    justify-content: flex-end;
+    justify-items: flex-end;
+}
+
+#preview-wrap {
+    grid-area: preview;
+}
+
+#original,
+#preview-wrap {
+    width: 100%;
+    height: 100%;
+    display: grid;
+}
+
+/* canvas is used only for reading the pixels. we don't need to render it */
+canvas {
+    display: none;
+}
