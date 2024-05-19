@@ -1,6 +1,6 @@
 # Image to CSS converter
 
-Ever felt like images take too much storage? Too bad, because with this tool you can make them even larger.
+Ever felt like images take too much storage? Too bad, because with this tool you can make them even larger. You can try it out [here](https://luka-bacic.github.io/img-to-css/).
 
 This converts any image to CSS, using a bunch of divs and [linear-gradients](https://developer.mozilla.org/en-US/docs/Web/CSS/gradient/linear-gradient).
 
