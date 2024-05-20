@@ -19,6 +19,9 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
     <!-- not visible -->
     <canvas></canvas>
   </div>
+  <nav>
+    <a href="https://github.com/luka-bacic/img-to-css">GitHub</a>
+  </nav>
 `
 
 initApp()
